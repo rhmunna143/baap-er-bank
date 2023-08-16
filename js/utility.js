@@ -1,4 +1,4 @@
-function inputValueTextMakeNumber(valueId) {
+function getValueTextMakeNumber(valueId) {
     const valueElement = document.getElementById(valueId);
     const valueString = document.getElementById(valueId).value;
     const valueNumber = parseFloat(valueString);
@@ -25,3 +25,11 @@ function getElementInnerTextMakeNumber(elementId){
     textElement = '';
 }
 
+function sumTwoNumbers(num1, num2){
+    let sum = num1 + num2;
+    return sum;
+}
+
+function subTwoNumbers(number1, number2){
+    let sub = number1 - number2;
+}
