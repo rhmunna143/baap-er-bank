@@ -1,6 +1,6 @@
 function getValueTextMakeNumber(valueId) {
     const valueElement = document.getElementById(valueId);
-    const valueString = document.getElementById(valueId).value;
+    let valueString = document.getElementById(valueId).value;
     const valueNumber = parseFloat(valueString);
 
     if (!isNaN(valueNumber)) {
@@ -8,8 +8,6 @@ function getValueTextMakeNumber(valueId) {
     } else {
         return alert('Takar amount na bolle add kormu kemne!!! Ammount bol...');
     }
-
-    valueElement = '';
 }
 
 function getElementInnerTextMakeNumber(elementId){
