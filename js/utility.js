@@ -30,4 +30,5 @@ function sumTwoNumbers(num1, num2){
 
 function subTwoNumbers(number1, number2){
     let sub = number1 - number2;
+    return sub;
 }
